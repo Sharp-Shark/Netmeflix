@@ -1,0 +1,7 @@
+img{https://i.pinimg.com/originals/a0/c0/50/a0c050d68a619f501fb3f3a44e4aeba8.jpg}
+name{The Godfather}
+rating{1.00}
+desc{A movie about the Italian Mafia. Direction by Francis Ford Coppola.}
+textColor{white}
+color{darkred}
+tags{["shootout"]}
