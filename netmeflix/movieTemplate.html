@@ -3,8 +3,8 @@
 <head>
 	<style>
 	body {
-		background-color: black;
-		color: red;
+		background-color: {color};
+		color: {textColor};
 		font-family: Arial, Helvetica, sans-serif;
 		margin: 0px;
 	}
@@ -13,8 +13,8 @@
 		margin: 16px;
 	}
     hr {
-        color: red;
-        background-color: red;
+        color: {textColor};
+        background-color: {textColor};
     }
     a {
         color: cyan;
@@ -27,31 +27,31 @@
 	<a href="main.html" style="text-decoration: none;">
 	<div style="background-color: black;">
 		<center style="color: red;font-size: 1000%;font-weight: bold;">Netmeflix</center>
-    	<hr style="padding: 4px; color: red; background-color: red;">
+    	<hr style="padding: 4px; color: {textColor}; background-color: {textColor};">
 	</div>
 	</a>
 	<div>
-	<img src='https://static.metacritic.com/images/products/movies/1/7c332b8bf8bc3887227dc6ae20b691c7-250h.jpg' height="400px" width="300px" style="float: left;margin: 8px;"/>
+	<img src='{img}' height="400px" width="300px" style="float: left;margin: 8px;"/>
 	<span>
-		<h1 style="margin: 0px">Jurassic Park <b id='stars'></b></h1>
-		<span id="tags" style="background-color: rgb(255, 255, 255, 0.05)">["fiction"]</span><br>
+		<h1 style="margin: 0px">{name} <b id='stars'></b></h1>
+		<span id="tags" style="background-color: rgb(255, 255, 255, 0.05)">{tags}</span><br>
 		<br>
-		<span style="width: 800px;">Featuring incredible special effects and action-packed drama, Jurassic Park takes you to a remote island where an amazing theme park with living dinosaurs is about to turn deadly, as five people must battle to survive among the prehistoric predators.</span><br>
+		<span style="width: 800px;">{desc}</span><br>
 	</span>
 	</div>
 	<div style="clear: both;background-color: black;color: white;">
-	<hr style="padding: 4px; color: red; background-color: red;">
+	<hr style="padding: 4px; color: {textColor}; background-color: {textColor};">
 	<a href="source.html" class="big">Página com o Código do Projeto</a><br>
 	<hr style="background-color: white;color: white;">
 	<center>Feito por <a href="https://github.com/Sharp-Shark">Sharp-Shark</a> (no repl.it é <a href="https://replit.com/@pythonCoffee">pythonCoffee</a>)</center><br>
 	</div>
 	<script>
-	_name = "Jurassic Park";
-	_rating = "0.88";
-	_desc = "Featuring incredible special effects and action-packed drama, Jurassic Park takes you to a remote island where an amazing theme park with living dinosaurs is about to turn deadly, as five people must battle to survive among the prehistoric predators.";
-	_color = "black";
-	_textColor = "red";
-	_tags = ["fiction"];
+	_name = "{name}";
+	_rating = "{rating}";
+	_desc = "{desc}";
+	_color = "{color}";
+	_textColor = "{textColor}";
+	_tags = {tags};
 	
 	function updateStars(repeatAmount) {
 		document.getElementById("stars").innerHTML = '★'.repeat(repeatAmount)+'☆'.repeat(5-repeatAmount);

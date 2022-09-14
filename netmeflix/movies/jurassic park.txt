@@ -1,3 +1,4 @@
+template{movieTemplate.html}
 img{https://static.metacritic.com/images/products/movies/1/7c332b8bf8bc3887227dc6ae20b691c7-250h.jpg}
 name{Jurassic Park}
 rating{0.88}

@@ -1,3 +1,4 @@
+template{movieTemplate.html}
 img{https://br.web.img3.acsta.net/pictures/19/09/23/05/06/3716032.jpg}
 name{El Camino}
 rating{0.72}

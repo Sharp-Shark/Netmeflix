@@ -1,4 +1,43 @@
-import os
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body {
+		background-color: {color};
+		color: {textColor};
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0px;
+	}
+	.code {
+		font-family: "Lucida Console", "Courier New", monospace;
+		background-color: rgb(0, 0, 0, 0.8);
+		color: lime;
+		padding: 8px;
+		margin: 2px;
+	}
+    hr {
+        color: {textColor};
+        background-color: {textColor};
+    }
+    a {
+        color: cyan;
+    }
+	</style>
+	<title>
+	</title>
+</head>
+<body>
+	<a href="main.html" style="text-decoration: none;">
+	<div style="background-color: black;">
+		<center style="color: red;font-size: 1000%;font-weight: bold;">Netmeflix</center>
+    	<hr style="padding: 4px; color: {textColor}; background-color: {textColor};">
+	</div>
+	</a>
+	<span>
+		<a href="./" style="font-size: 20px;">Código "Raw" (Pasta do Projeto)</a>
+		<h1 style="margin: 0px">Código do Gerador</h1>
+		<div class="code">
+<pre>import os
 
 try :
     datas = {}
@@ -35,11 +74,10 @@ try :
                 print(finished)
                 file.write(finished)
 
-    #templateLink = '<a href="{path}" target="_blank"><img src="{img}" height="400px"/></a>'
     templateLink = '''
-    <a href="{path}">
-        <img src="{img}" height="400px" width="300px" style="margin: 8px;" />
-    </a>
+    &lt;a href="{path}"&gt;
+        &lt;img src="{img}" height="400px" width="300px" style="margin: 8px;" /&gt;
+    &lt;/a&gt;
     '''
     movieDisplay = ''
     for pathIndex, path in enumerate(moviePaths) :
@@ -56,4 +94,24 @@ try :
 
     os.system('start website/main.html')
 except Exception as error :
-    input(error)
+    input(error)</pre>
+		</div>
+		<h1 style="margin: 0px">Arquivo para Geração</h1>
+		<div class="code">
+<pre>template{movieTemplate.html}
+img{https://i.pinimg.com/originals/a0/c0/50/a0c050d68a619f501fb3f3a44e4aeba8.jpg}<br>
+name{The Godfather}
+rating{1.00}
+desc{A movie about the Italian Mafia. Direction by Francis Ford Coppola.}<br>
+textColor{white}
+color{darkred}
+tags{["shootout"]}</pre>
+        </div>
+		<h2 style="margin: 0px">Se quiser ver um "Template" já processado, basta pressionar F12 e ver o HTML da página.</h2>
+	</span>
+    <div style="clear: both;background-color: black;color: white;">
+    <hr style="padding: 4px; color: {textColor}; background-color: {textColor};">
+	<center>Feito por <a href="https://github.com/Sharp-Shark">Sharp-Shark</a> (no repl.it é <a href="https://replit.com/@pythonCoffee">pythonCoffee</a>)</center><br>
+    </div>
+</body>
+</html>

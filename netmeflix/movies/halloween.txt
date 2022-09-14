@@ -1,3 +1,4 @@
+template{movieTemplate.html}
 img{https://static.metacritic.com/images/products/movies/7/86cdb8f5922b8684529b123a709f94f2-250h.jpg}
 name{Halloween: The Curse of Michael Myers}
 rating{0.10}

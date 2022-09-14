@@ -1,3 +1,4 @@
+template{movieTemplate.html}
 img{https://static.metacritic.com/images/products/movies/6/9bb27abf197c999b3903acbc1dbc78af-250h.jpg}
 name{Once Upon a Time ... in Hollywood}
 rating{0.83}

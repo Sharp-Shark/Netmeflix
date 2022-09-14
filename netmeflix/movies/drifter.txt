@@ -1,3 +1,4 @@
+template{movieTemplate.html}
 img{https://static.metacritic.com/images/products/movies/0/9720e6930cf28f9be891ed049bb19f1a-250h.jpg}
 name{High Plains Drifter}
 rating{0.78}
