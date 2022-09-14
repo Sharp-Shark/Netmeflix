@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	body {
+		background-color: darkred;
+		color: royalblue;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0px;
+	}
+	.big {
+		font-size: 40px;
+		margin: 16px;
+	}
+    hr {
+        color: royalblue;
+        background-color: royalblue;
+    }
+    a {
+        color: cyan;
+    }
+	</style>
+	<title>
+	</title>
+</head>
+<body>
+	<a href="main.html" style="text-decoration: none;">
+	<div style="background-color: black;">
+		<center style="color: red;font-size: 1000%;font-weight: bold;">Netmeflix</center>
+    	<hr style="padding: 4px; color: royalblue; background-color: royalblue;">
+	</div>
+	</a>
+	<div>
+	<img src='https://static.metacritic.com/images/products/movies/7/86cdb8f5922b8684529b123a709f94f2-250h.jpg' height="400px" width="300px" style="float: left;margin: 8px;"/>
+	<span>
+		<h1 style="margin: 0px">Halloween: The Curse of Michael Myers <b id='stars'></b></h1>
+		<span id="tags" style="background-color: rgb(255, 255, 255, 0.05)">["horror"]</span><br>
+		<br>
+		<span style="width: 800px;">Six years after Michael Myers last terrorized Haddonfield, he returns there in pursuit of his niece, Jamie Lloyd, who has escaped with her newborn child, for which Michael and a mysterious cult have sinister plans.</span><br>
+	</span>
+	</div>
+	<div style="clear: both;background-color: black;color: white;">
+	<hr style="padding: 4px; color: royalblue; background-color: royalblue;">
+	<a href="source.html" class="big">Página com o Código do Projeto</a><br>
+	<hr style="background-color: white;color: white;">
+	<center>Feito por <a href="https://github.com/Sharp-Shark">Sharp-Shark</a> (no repl.it é <a href="https://replit.com/@pythonCoffee">pythonCoffee</a>)</center><br>
+	</div>
+	<script>
+	_name = "Halloween: The Curse of Michael Myers";
+	_rating = "0.10";
+	_desc = "Six years after Michael Myers last terrorized Haddonfield, he returns there in pursuit of his niece, Jamie Lloyd, who has escaped with her newborn child, for which Michael and a mysterious cult have sinister plans.";
+	_color = "darkred";
+	_textColor = "royalblue";
+	_tags = ["horror"];
+	
+	function updateStars(repeatAmount) {
+		document.getElementById("stars").innerHTML = '★'.repeat(repeatAmount)+'☆'.repeat(5-repeatAmount);
+	};
+	function updateTags() {
+		tagTxt = _tags.join(' ');
+		tagTxt = tagTxt.replace("horror", "<b style='color:magenta;'>Horror</b>");
+		tagTxt = tagTxt.replace("shootout", "<b style='color:darkorange;''>Shootout</b>");
+		tagTxt = tagTxt.replace("fiction", "<b style='color:green;'>Fiction</b>");
+		document.getElementById("tags").innerHTML = tagTxt;
+	};
+
+	updateStars(Math.round(5*(parseFloat(_rating)/1)));
+	updateTags();
+	</script>
+</body>
+</html>

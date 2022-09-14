@@ -1,0 +1,8 @@
+template{movieTemplate.html}
+img{https://static.metacritic.com/images/products/movies/1/7c332b8bf8bc3887227dc6ae20b691c7-250h.jpg}
+name{Jurassic Park}
+rating{0.88}
+desc{Featuring incredible special effects and action-packed drama, Jurassic Park takes you to a remote island where an amazing theme park with living dinosaurs is about to turn deadly, as five people must battle to survive among the prehistoric predators.}
+textColor{red}
+color{black}
+tags{["fiction"]}
