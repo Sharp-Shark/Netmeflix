@@ -1,8 +1,0 @@
-template{movieTemplate.html}
-img{https://static.metacritic.com/images/products/movies/5/67c8df892dc24199fa5a860d17bfae38-250h.jpg}
-name{Solo: A Star Wars Story}
-rating{0.61}
-desc{ Board the Millennium Falcon and journey to a galaxy far, far away in Solo: A Star Wars Story, an all-new adventure with the most beloved scoundrel in the galaxy. Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian, in a journey that will set the course of one of the Star Wars saga’s most unlikely heroes.}
-textColor{orange}
-color{black}
-tags{["shootout", "fiction"]}

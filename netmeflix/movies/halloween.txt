@@ -1,8 +1,0 @@
-template{movieTemplate.html}
-img{https://static.metacritic.com/images/products/movies/7/86cdb8f5922b8684529b123a709f94f2-250h.jpg}
-name{Halloween: The Curse of Michael Myers}
-rating{0.10}
-desc{Six years after Michael Myers last terrorized Haddonfield, he returns there in pursuit of his niece, Jamie Lloyd, who has escaped with her newborn child, for which Michael and a mysterious cult have sinister plans.}
-textColor{royalblue}
-color{darkred}
-tags{["horror"]}

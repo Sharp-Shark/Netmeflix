@@ -1,8 +1,0 @@
-template{movieTemplate.html}
-img{https://static.metacritic.com/images/products/movies/6/9bb27abf197c999b3903acbc1dbc78af-250h.jpg}
-name{Once Upon a Time ... in Hollywood}
-rating{0.83}
-desc{Once Upon a Time in Hollywood visits 1969 Los Angeles, where everything is changing, as TV star Rick Dalton (Leonardo DiCaprio) and his longtime stunt double Cliff Booth (Brad Pitt) make their way around an industry they hardly recognize anymore. The ninth film from the writer-director features a large ensemble cast and multiple storylines in a tribute to the final moments of Hollywood's golden age.}
-textColor{white}
-color{orangered}
-tags{["shootout"]}
